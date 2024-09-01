@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+/*estilos Header*/
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.navAlineacion{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+}
+
+.navAlineacion a{
+    margin-right: 10px;
+    color: black;
+}
+
+a{/*para quitar las lineas a las palabras de enlace*/
+    text-decoration: none;
+    /*para que al pasar el raton sobre los enlaces aparesca la manita*/
+    cursor: pointer;
+}
+
+.menuIcono{
+    width: 25px;
+    height: 25px;
+}
+
+.imagenRedonda{
+    border-radius: 50%;
+}
+
+
+
+/*estilos main*/
+
+main{
+    text-align: center;
+}
+
+.logoGoogle{
+    width: 530px;
+    margin:0 auto;
+    margin-bottom: 6px;
+}
+
+.logoGoogle img{
+    width: 375px;
+    height: 150px;
+}
+
+.barraBusqueda{
+    display: flex;
+    width: auto;
+    margin-bottom: 35px;
+    justify-content: center;
+}
+
+.barraBusquedaContenedor{
+    width: 582px;
+    height: 46px;
+    border-radius: 100px;
+    border: 2px solid #e1e2e6;
+}
+
+.barraBusquedaContenedor input{
+    width: 540px;
+    height: 42px;
+    border: none;
+    outline: none;
+}
+
+.barraBusquedaContenedor:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+}
+
+.botones{
+    width: 530px;
+    margin: auto;
+}
+.botones article{
+    display: inline-block;
+}
+.botones button{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+
+}
+
+.botones button:hover{
+    border: 2px solid #dadce0;
+    box-shadow: 2px #dadce0;
+    color: #202124;
+}
+
+
